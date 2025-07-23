@@ -46,7 +46,7 @@ header{
     flex-direction: row;
     align-items: flex-start ;
     justify-content: space-between;
-    
+    width: 100%;
     
 
 }
@@ -61,6 +61,7 @@ header{
     padding:30px;
     gap: 10px;
     margin:20px;
+    width: 50%;
 ;
 
 }
@@ -69,8 +70,9 @@ header{
     display: flex;
     flex-direction: row;;
     align-items: center;
-    justify-content:center ;
+    justify-content:space-evenly;
     margin: 20px;
+    width: 50%;
 }
 .bloqueDos img{
   width: 300px;
@@ -95,7 +97,7 @@ li a{
 }
 
 
-button{
+.titulo-container button{
     font-size:20px;
     font-weight: bold;
     font-family:cursive;
@@ -117,7 +119,131 @@ h1{
 
 p{
     font-size: 16px;
-    color: #666;
     line-height: 1.5;
     margin-bottom: 21px;
+}
+
+.container-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+
+}
+               
+.items-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    margin: 2px;
+    gap: 2px;
+    justify-content: center;
+
+    align-items: center;
+    flex-wrap: 1
+}
+
+.items-container div{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    border: 4px solid rgba(12, 5, 109, 0.719);
+}
+main{
+    margin-top: 30px;
+}
+
+.items-container p{
+
+    text-align: center;
+}
+
+main h1{
+
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.section-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.section-container p{
+    font-size: 36px;
+    font-family: light italic, sans-serif;
+    color: #1f2937;
+}
+.section-container span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-weight: 900;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 30px;
+    
+}
+.bloque-azul{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+.registro h1{
+     color: #e5e7eb;
+     font-weight: 500;
+}
+
+.registro span{
+    color: #e5e7eb;
+    font-weight: 900;
+}
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.button, button{
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 50px;
+    border-radius: 8px;
+    background-color: #3882f6; 
 }
