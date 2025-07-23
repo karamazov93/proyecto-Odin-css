@@ -17,14 +17,13 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-top: 5px;
-    border-radius: 10px
+
 }
 
 header{
     display: flex;
     flex-direction: column;
-    background-color: #4CAF50;
+    background-color: #1f2937;
     color: white;
     padding: 10px 0;
     width: 100%;
@@ -100,26 +99,25 @@ li a{
 .titulo-container button{
     font-size:20px;
     font-weight: bold;
-    font-family:cursive;
-    background-color: #21da1157;
+    background-color: #3882f6;
     color: white;
-    border: 5px dashed rgba(18, 219, 169, 0.925);
+    border: 1px solid #fff;
     padding: 10px 20px;
     border-radius: 5px;
     cursor:pointer;
 }
 
-h1{
-    font-size: 24px;
+.bloqueUno h1{
+    font-size: 48px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
-    color: #333;
+    color: #f9faf8;
     margin-bottom: 10px;
 }
 
-p{
-    font-size: 16px;
-    line-height: 1.5;
+.bloqueUno p{
+    font-size: 18px;
+    color: #e5e7eb;
     margin-bottom: 21px;
 }
 
@@ -152,7 +150,7 @@ p{
     height: 150px;
     border-radius: 10px;
     background: #f0f0f0;
-    border: 4px solid rgba(12, 5, 109, 0.719);
+    border: 4px solid #3882f6
 }
 main{
     margin-top: 30px;
@@ -184,31 +182,44 @@ main h1{
 }
 
 .section-container p{
+    padding: 20px;
     font-size: 36px;
     font-family: light italic, sans-serif;
     color: #1f2937;
+    text-align: center;
+    flex-wrap: 1;
 }
 .section-container span{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-
     font-weight: 900;
 }
 
 
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #3882f6;
     margin: 30px;
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+
+    
     
 }
 .bloque-azul{
-    padding: 30px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,16 +228,17 @@ section{
 
 .registro{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     justify-content: center;
     text-align: center;
     width: 50%;
+    flex-wrap: 1;
 }
 .registro h1{
      color: #e5e7eb;
      font-weight: 500;
-}
+     text-align: center;}
 
 .registro span{
     color: #e5e7eb;
@@ -246,4 +258,24 @@ section{
     padding: 10px 50px;
     border-radius: 8px;
     background-color: #3882f6; 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+footer div p{
+    text-align: center;
 }
