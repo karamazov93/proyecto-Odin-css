@@ -214,6 +214,7 @@ section{
     width: 50%;
     height: 150px;
     border-radius: 10px;
+    flex-grow:1
 
     
     
