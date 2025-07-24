@@ -214,7 +214,7 @@ section{
     width: 50%;
     height: 150px;
     border-radius: 10px;
-    flex-grow:1
+    
 
     
     
@@ -224,6 +224,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow:1;
  
 }
 
